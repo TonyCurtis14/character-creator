@@ -1,0 +1,140 @@
+WeaponClub club;
+
+Simple Melee Weapons
+WeaponClub club;
+WeaponDagger dagger;
+WeaponGreatclub greatclub;
+WeaponHandAxe handAxe;
+WeaponJavelin javelin;
+WeaponLightHammer lightHammer;
+WeaponMace mace;
+WeaponQuarterstaff quarterstaff;
+WeaponSickle sickle;
+WeaponSpear spear;
+	
+Simple Ranged Weapons
+WeaponCrossbowLight crossbowLight;
+WeaponDart dart;
+WeaponShortbow shortbow;
+WeaponSling sling;	
+
+Martial Melee Weapons
+WeaponBattleaxe battleaxe;
+WeaponFlail flail;
+WeaponGlaive glaive;
+WeaponGreatAxe greatAxe;
+WeaponGreatsword greatsword;
+WeaponHalberd halberd;
+WeaponLance lance;
+WeaponLongsword longsword;
+WeaponMaul maul;
+WeaponMorningstar morningstar;
+WeaponPike pike;
+WeaponRapier rapier;
+WeaponScimitar scimitar;
+WeaponShortSword shortSword;
+WeaponTrident trident;
+WeaponWarPick warPick;
+WeaponWarhammer warhammer;
+WeaponWhip whip;
+
+Martial Ranged Weapons
+WeaponBlowgun blowgun;
+WeaponCrossbowHand crossbowHand;
+WeaponCrossbowHeavy crossbowHeavy;
+WeaponLongbow longbow;
+WeaponNet net;
+
+Initializing
+
+Simple Melee Weapons
+club = new WeaponClub();
+dagger = new WeaponDagger();
+greatclub = new WeaponGreatclub();
+handAxe = new WeaponHandAxe();
+javelin = new WeaponJavelin();
+lightHammer = new WeaponLightHammer();
+mace = new WeaponMace();
+quarterstaff = new WeaponQuarterstaff();
+sickle = new WeaponSickle();
+spear = new WeaponSpear();
+
+Simple Ranged Weapons
+crossbowLight = new WeaponCrossbowLight();
+dart = new WeaponDart();
+shortbow = new WeaponShortbow();
+sling = new WeaponSling();
+
+Martial Melee Weapons
+battleaxe = new WeaponBattleaxe();
+flail = new WeaponFlail();
+glaive = new WeaponGlaive();
+greatAxe = new WeaponGreatAxe();
+greatsword = new WeaponGreatsword();
+halberd = new WeaponHalberd();
+lance = new WeaponLance();
+longsword = new WeaponLongsword();
+maul = new WeaponMaul();
+morningstar = new WeaponMorningstar();
+pike = new WeaponPike();
+rapier = new WeaponRapier();
+scimitar = new WeaponScimitar();
+shortSword = new WeaponShortSword();
+trident = new WeaponTrident();
+warPick = new WeaponWarPick();
+warhammer = new WeaponWarhammer();
+whip = new WeaponWhip();
+
+Martial Ranged Weapons
+blowgun = new WeaponBlowgun();
+crossbowHand = new WeaponCrossbowHand();
+crossbowHeavy = new WeaponCrossbowHeavy();
+longbow = new WeaponLongbow();
+net = new WeaponNet();
+
+Adding weapons to the list
+
+Simple Melee Weapons
+		weapons.add(club);
+		weapons.add(dagger);
+		weapons.add(greatclub);
+		weapons.add(handAxe);
+		weapons.add(javelin);
+		weapons.add(lightHammer);
+		weapons.add(mace);
+		weapons.add(quarterstaff);
+		weapons.add(sickle);
+		weapons.add(spear);
+		weapons.add(crossbowLight);
+		weapons.add(dart);
+		weapons.add(shortbow);
+		weapons.add(sling);
+Simple Ranged Weapons
+
+
+Martial Melee Weapons
+		weapons.add(battleaxe);
+		weapons.add(flail);
+		weapons.add(glaive);
+		weapons.add(greatAxe);
+		weapons.add(greatsword);
+		weapons.add(halberd);
+		weapons.add(lance);
+		weapons.add(longsword);
+		weapons.add(maul);
+		weapons.add(morningstar);
+		weapons.add(pike);
+		weapons.add(rapier);
+		weapons.add(scimitar);
+		weapons.add(shortSword);
+		weapons.add(trident);
+		weapons.add(warPick);
+		weapons.add(warhammer);
+		weapons.add(whip);
+		
+Martial Ranged Weapons
+		weapons.add(blowgun);
+		weapons.add(crossbowHand);
+		weapons.add(crossbowHeavy);
+		weapons.add(longbow);
+		weapons.add(net);
